@@ -1,0 +1,158 @@
+{"0": {
+    "doc": "Beagle Flap Development",
+    "title": "Developing the flapping wing aerial robot",
+    "content": "This page follows the development of the Beagle Flap. ",
+    "url": "http://localhost:4000/docs/documentation/beagleflap-development/#developing-the-flapping-wing-aerial-robot",
+    "relUrl": "/docs/documentation/beagleflap-development/#developing-the-flapping-wing-aerial-robot"
+  },"1": {
+    "doc": "Beagle Flap Development",
+    "title": "Flapping Mechanism",
+    "content": "Flapping mechanism is to convert the rotary motion of motor into the reciprocating motion of flapping wings. The basis for this mechanisms is the “crank-rocker” type of four-bar linkage. Here, the motor drives a rotating crank. The crank has a connecting rod attached to it, and the other end of the connecting rod is attached to the wing. As the crank goes around, the connecting rod pushes the wing spar to flap up and down at the hinge point. A type of four bar link mechanism which from a side rotates a complete rotation and from the other rotates by a limited rotation. This system is complex to design and fabricate because it must withstand vast forces which reverse direction several times a second while at the same time being extremely light, durable and also provide a fairly symmetrical wing motion so the flapping wing UAV flies straight. There are many kinds of flapping mechanisms. Here, I chooses to design a variation of the dual crank mechanism Transverse drive shaft with cranks at either ends and this mechanism allows for symmetric wing motion. The rotating gears and the flapping wings are not on the same plane thus the connector rod has to be able to rotate. The connector rod has a ball bearing inside, and this adds weight to just the component itself. The number of gears used in this design is more than any other design. The transverse shaft design is usually used for large ornithopters where weight could be overcome by large wings. ",
+    "url": "http://localhost:4000/docs/documentation/beagleflap-development/#flapping-mechanism",
+    "relUrl": "/docs/documentation/beagleflap-development/#flapping-mechanism"
+  },"2": {
+    "doc": "Beagle Flap Development",
+    "title": "Flapping Gear System",
+    "content": "Developing a Flapping Gear system for Eagle-Inspired motion. The gear system is to convert the rotary motion of the motor into flapping motion. Here this is accomplished by using crank-rocker type of four-bar linkage mechanism along with a gear reduction. The core of the flapping mechanism design is a variation of the dual crank mechanism Transverse drive shaft with cranks at either ends and the gear box consists of three Acrylic plates/frames of 3mm thickness cut to the shape required to house the motor, gears, linkage and flapping arms. Here set of plates, together with bridging 5mm spacer,that creates a protected space that fully encompasses the transmission with the brush less out-runner motor slightly protruding on one side. There is small pinion gear for the motor, an intermediate gear that increases the gear ratio, and a large output gear that further increases the total gear ratio of the mechanism. The gear reduction between the driving motor and flapping mechanism is necessary because the motor operating revolutions per minute(RPM) are much higher than the desired flapping frequency. To achieve the eagle’s flapping frequency of 5Hz. Here I explain the design. Since I use a transverse shaft design. To achieve the desired rotational speed (i.e, flapping frequency) I used 2 pair of gears (gear A + gear B and gear C + gear D). So it is a gear system with two stages of reduction. (A + B)(C + D) It is a reduction ratio gear design. Gears: A = 12T (Driver Gear) B = 83T C = 12T D = 64T (Driven, end gear) Here we using 1850KV motor powered by 7.4V 1500KV = 1500*7.4(2s) = 11100 revolutions per minute or 11100/60 = 185 revolutions per second . So, In order to achieve desired rotational speed (i.e, flapping frequency) two stage of reduction ratio applied. Calculation: Total reduction ratio . The total reduction ratio is the product of the first stage of reduction and the second stage of reduction. B:A - 1st stage reduction D:C - 2nd stage reduction (B/A)*(D/C) = (83/12)*(64/12) = 36.5 It means that the total reduction ratio is 1 : 36.5 To find the speed of end gear D (Driven Gear) Speed of end-gear (driven D gear) = Speed of Driver gear A in sec * 1/Total reduction ratio 185 * 1/ 36.5 = 5.06 revolutions per second . Here, revolutions per second = flap’s per second (i.e, flapping frequency) . ",
+    "url": "http://localhost:4000/docs/documentation/beagleflap-development/#flapping-gear-system",
+    "relUrl": "/docs/documentation/beagleflap-development/#flapping-gear-system"
+  },"3": {
+    "doc": "Beagle Flap Development",
+    "title": "Beagle Flap Development",
+    "content": " ",
+    "url": "http://localhost:4000/docs/documentation/beagleflap-development/",
+    "relUrl": "/docs/documentation/beagleflap-development/"
+  },"4": {
+    "doc": "Using Beagle as a Flight Controller",
+    "title": "Using Beagle as a Flight Controller",
+    "content": "Beagle-Flap Flight Control System - Hardware and PCB Design . ",
+    "url": "http://localhost:4000/docs/documentation/flight-controller/",
+    "relUrl": "/docs/documentation/flight-controller/"
+  },"5": {
+    "doc": "Using Beagle as a Flight Controller",
+    "title": "Ardupilot on Beagle",
+    "content": ". | BeagleBoard.org mentored the original port of ArduPilot to Linux in 2014 as part of Google Summer of Code . - BeagleBone Black + Erle Cape or Pixhawk Fire Cape . | Mirko Denecke and ArduPilot community continued work . - 2015: BBBmini Cape for BeagleBone Black and SeeedStudio BeagleBone Green - 2017: Support for BeagleBone Blue - 2018: PocketPilot PocketCape for PocketBeagle - 2022: BBBMINI V2 Juvinski . | . It was really intresting to see the BBBmini port which is on beagle bone black with a much much cheaper simpler sensor board on the top more of a sort of Do-it-yourself cape put together and the patch was really nicely structured the entire patch to add support for ardupilot within 43 lines tiny. It looking like it would be easy to throw together another one that’s easier and cheaper for people to put together on top of the Beagle. ",
+    "url": "http://localhost:4000/docs/documentation/flight-controller/#ardupilot-on-beagle",
+    "relUrl": "/docs/documentation/flight-controller/#ardupilot-on-beagle"
+  },"6": {
+    "doc": "Git Repositories",
+    "title": "Git Repositories",
+    "content": "Common software that is on or used for building flapping wing robot. ",
+    "url": "http://localhost:4000/docs/documentation/git-repositories/#git-repositories",
+    "relUrl": "/docs/documentation/git-repositories/#git-repositories"
+  },"7": {
+    "doc": "Git Repositories",
+    "title": "Git Repositories",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/documentation/git-repositories/",
+    "relUrl": "/docs/documentation/git-repositories/"
+  },"8": {
+    "doc": "Hardware",
+    "title": "Hardware",
+    "content": "Tracking page for hardware that purchased and lent for development and testing. ",
+    "url": "http://localhost:4000/docs/documentation/hardware/#hardware",
+    "relUrl": "/docs/documentation/hardware/#hardware"
+  },"9": {
+    "doc": "Hardware",
+    "title": "Hardware",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/documentation/hardware/",
+    "relUrl": "/docs/documentation/hardware/"
+  },"10": {
+    "doc": "How-To Guides",
+    "title": "How-To Guides",
+    "content": "We are using various tools, electronic components, and building material. These guides are how to use them. ",
+    "url": "http://localhost:4000/docs/documentation/how-to-guides/#how-to-guides",
+    "relUrl": "/docs/documentation/how-to-guides/#how-to-guides"
+  },"11": {
+    "doc": "How-To Guides",
+    "title": "Table of Contents",
+    "content": ". | Compiling and Loading Device Tree Overlay for BBBMini - BeagleBone ArduPilot DIY Cape | . Compiling and Loading Device Tree Overlay for BBBMini - BeagleBone ArduPilot DIY Cape . | Clone and compile the dtc - device tree compiler git clone git://git.kernel.org/pub/scm/utils/dtc/dtc.git | Change the directory cd dtc | Make make | Install make install | Check the version dtc --version The return shoud be version 1.6.1 | Change Directory cd ~ | Clone BeagleBoard’s device tree https://git.beagleboard.org/beagleboard/BeagleBoard-DeviceTrees.git | Change the directory cd BeagleBoard-DeviceTrees | Checkout the v5.10.x-ti-unified git checkout v5.10.x-ti-unified | Get the dts updated https://raw.githubusercontent.com/juvinski/BBBMINI_V2/main/DeviceTreeOverlay/am335x-boneblack-bbbmini.dts -O src/arm/am335x-boneblack-bbbmini.dts | Make make | Install sudo make install_arm | Check the new dtb file ls /boot/dtbs/5.10.109-bone-rt-r63/am335x-boneblack-bbbmini.dtb - should return file path and name | Change the uEnv file ` vi /boot/uEnv.txt` | Change the lines: Add the dtb file: dtb=am335x-boneblack-bbbmini.dtb Comment the uboot_overlay: #enable_uboot_overlays=1 Uncomment the PRU overlay: uboot_overlay_pru=AM335X-PRU-UIO-00A0.dtbo - all other dtbo for PRU must be commented | Save the file esc + :x! | Reboot | After the boot, to ensure the dtb was loaded run a ls /dev/spidev* The return should be /dev/spidev* /dev/spidev0.0 /dev/spidev1.0 /dev/spidev1.1 | Proceed to ardupilot compilation | . ",
+    "url": "http://localhost:4000/docs/documentation/how-to-guides/#table-of-contents",
+    "relUrl": "/docs/documentation/how-to-guides/#table-of-contents"
+  },"12": {
+    "doc": "How-To Guides",
+    "title": "How-To Guides",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/documentation/how-to-guides/",
+    "relUrl": "/docs/documentation/how-to-guides/"
+  },"13": {
+    "doc": "Documentation",
+    "title": "Documentation",
+    "content": ". This documentation is about the new learning(s) and issue(s) resolvings on different aspects of project, and personal thoughts. It includes(or/with links): Personal Public thoughts, Artciles, Research in design, modeling and control of an autonomous flapping wing robot, Programming(issues and code), Embedded Systems, reading litrature, reports, data analysis, expriments, text documentation, images, tutorial(links) and git links(Personal Pubic repository links). Note : This documentation is mainly intend to reduce time consumption for solving some issues which are already solved/used earlier, This is from my past experience of wasting my time for searching for issues solving and code shown/contributed/used are somtimes exculsively with Debian GNU/Linux and may not work with other Debian based systems or other Linux distributions. ",
+    "url": "http://localhost:4000/docs/documentation/",
+    "relUrl": "/docs/documentation/"
+  },"14": {
+    "doc": "Project Progress",
+    "title": "Project Progress",
+    "content": "These are the logs of project, where I provide report on the work done. ",
+    "url": "http://localhost:4000/docs/projectprogress/",
+    "relUrl": "/docs/projectprogress/"
+  },"15": {
+    "doc": "Contact",
+    "title": "Contacts",
+    "content": ". Feel free to get in touch . | Email ID: krvprashanth@riseup.net | . | BeagleBoard Slack/Discord: @krvprashanth | . | Matrix: @krvprashanth:matrix.org | . | Telegram: https://t.me/krvprashanth | . ",
+    "url": "http://localhost:4000/docs/contact/#contacts",
+    "relUrl": "/docs/contact/#contacts"
+  },"16": {
+    "doc": "Contact",
+    "title": "Contact",
+    "content": " ",
+    "url": "http://localhost:4000/docs/contact/",
+    "relUrl": "/docs/contact/"
+  },"17": {
+    "doc": "Home",
+    "title": "Design, Fabrication and Control of the Flapping Wing Robot ‘Beagle-Flap’",
+    "content": "Towards building a flapping wing aerial robot with Linux-based AutoPilot, Using Beagle as a flight controller. Beagle-Flap project aims to use a Linux-based autopilot for bio-inspired flapping wing robot’s using the Beagle and a custom cape as hardware blueprints and DroneForce, a framework to ship custom controller (offboard) with Ardupilot as the software one to allow experimentation and development of control and navigation algorithms. Beagle-Flap Main Specifications: . | Parameter | Value | Description | . | m |   | Mass (w/ battery, w/o payload) | . | S |   | Wing Surface | . | b |   | Wingspan | . | St |   | Tail surface | . | Φ |   | Flapping amplitude | . | D |   | Mean dihedral angle | . | f |   | Flapping frequency | . | Kv |   | Brushless motor Kv Constant | . | V |   | Battery voltage | . | C |   | Battery capacity | . ",
+    "url": "http://localhost:4000/#design-fabrication-and-control-of-the-flapping-wing-robot-beagle-flap",
+    "relUrl": "/#design-fabrication-and-control-of-the-flapping-wing-robot-beagle-flap"
+  },"18": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },"19": {
+    "doc": "Pictures & Video",
+    "title": "Pictures &amp; Video",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/projectprogress/pictures-video/#pictures--video",
+    "relUrl": "/docs/projectprogress/pictures-video/#pictures--video"
+  },"20": {
+    "doc": "Pictures & Video",
+    "title": "Pictures & Video",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/projectprogress/pictures-video/",
+    "relUrl": "/docs/projectprogress/pictures-video/"
+  },"21": {
+    "doc": "Related Work",
+    "title": "Related Work",
+    "content": "This page gathers several links to flapping wing UAV-related resources. There has been a substantial amount of work on flaping wing robots. ",
+    "url": "http://localhost:4000/docs/documentation/related-work/#related-work",
+    "relUrl": "/docs/documentation/related-work/#related-work"
+  },"22": {
+    "doc": "Related Work",
+    "title": "Related Work",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/documentation/related-work/",
+    "relUrl": "/docs/documentation/related-work/"
+  },"23": {
+    "doc": "Robot Design & Experimentation",
+    "title": "Robot Design &amp; Experimentation",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/projectprogress/robot-design-experimentation/#robot-design--experimentation",
+    "relUrl": "/docs/projectprogress/robot-design-experimentation/#robot-design--experimentation"
+  },"24": {
+    "doc": "Robot Design & Experimentation",
+    "title": "First Phase of Development",
+    "content": ". | First prototype of Beagle-Flap, December 2023 | Using BeagleBone Black + BBBmini as a Flight Controller | Presented at Maker Faire Hyderabad &amp; ROSCon India 2023 . | https://www.beagleboard.org/blog/2023-12-13-maker-faire-hyderabad-roscon-bangalore-december-2023-events | https://youtube.com/shorts/KV5Ve06NTys?feature=shared | https://youtube.com/shorts/uAbiRCLeok4?feature=shared | https://youtube.com/shorts/10NQyajT5Ao?feature=shared | . | First flight of Beagle-Flap | Beagle-Flap : AutoPilot Flight Loiter with Arduplane 4.x, BBBmini and Ublox M8N GPS | Flight Logs | . ",
+    "url": "http://localhost:4000/docs/projectprogress/robot-design-experimentation/#first-phase-of-development",
+    "relUrl": "/docs/projectprogress/robot-design-experimentation/#first-phase-of-development"
+  },"25": {
+    "doc": "Robot Design & Experimentation",
+    "title": "Robot Design & Experimentation",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/projectprogress/robot-design-experimentation/",
+    "relUrl": "/docs/projectprogress/robot-design-experimentation/"
+  }
+}
