@@ -19,10 +19,10 @@ You can reproduce Beagle-Flap robot from scratch the whole design is built to be
 
 | Description | Value | 
 | --- | --- | 
-| Mass (w/ battery, w/o payload) | 0.610 grams | 
-| Wing Surface | 0.331 Square meter | 
+| Mass (w/ battery, w/o payload) | 610 grams | 
+| Wing Surface | 0.331 square meter | 
 | Wingspan | 1.4 meter | 
-| Tail surface | 0.077 Square meter | 
+| Tail surface | 0.077 square meter | 
 | Flapping amplitude | 30-60 | 
 | Mean dihedral angle | 10 deg | 
 | Flapping frequency | 2-5 Hz | 
