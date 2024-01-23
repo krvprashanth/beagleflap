@@ -10,7 +10,7 @@ Towards building a flapping wing aerial robot with Linux-based AutoPilot, Using 
 
 Beagle-Flap project aims to use a Linux-based autopilot for bio-inspired flapping wing robot's using the Beagle and a custom cape as hardware blueprints and [DroneForce](https://dfautopilot.com/), a framework to ship custom controller (offboard) with Ardupilot as the software one to allow experimentation and development of control and navigation algorithms.
 
-You can reproduce Beagle-Flap robot from scratch the whole design is built to be manufactured cheaply and quickly with standard 3D printing and a 2D plate cutter and buying a few standard mechanical parts together with some off-the-shelf electronic circuits together and a BeagleBone Black, BBBmini. With a few steps you compile ArduPilot, and flash it to the Beagle. 
+You can reproduce Beagle-Flap robot from scratch the whole design is built to be manufactured cheaply and quickly with standard 3D printing and a 2D plate cutter and buying a few standard mechanical parts together with some off-the-shelf electronic circuits together and a BeagleBone Black, BBBmini. With a few steps you compile ArduPilot, and flash it to the Beagle and fly, crash and fly again. 
 
 ![Beagle Flap](/assets/images/beagleflap-cover.jpg)
 
