@@ -10,6 +10,9 @@ Beagle-Flap Flight Control System - Hardware and PCB Design
 ---
 
 ## Ardupilot on Beagle
+[https://openbeagle.org/ardupilot-on-beagle](https://openbeagle.org/ardupilot-on-beagle)
+
+
 
 - BeagleBoard.org mentored the original port of ArduPilot to Linux in 2014 as part of
 Google Summer of Code
